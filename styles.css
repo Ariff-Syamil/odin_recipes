@@ -1,28 +1,82 @@
 * ,
 *::before,
 *::after{
-    background-color: rgb(218, 221, 38);
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }   
 
 h1 {
+    font-size: 10vh;
     text-align: center;
-    font-size: 90px;
-    background-color: salmon;
+    background-color: rgb(252, 153, 142);
+    height: 100vh;
+    padding: 40vh;
+}
+
+.intro-container {
+    background-color: rgb(218, 221, 38);
+    /* padding: 30px; */
+    height: 100vh;
 }
 
 .recipes {
     display: flex;
     justify-content: center;
     gap: 1rem;
-    padding: 10px;
+    padding: 5vh;
 }
 
 .recipes a {
     font-size: 30px;
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 10px;
     text-decoration: none;
     color: #000;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
+
+.self-case {
+    display: flex;
+    height: 80%;
+    /* border: 1px solid #000; */
+}
+
+.self {
+    display: flex;
+    flex-direction: column;
+    flex: auto;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid black;
+    background-color: aquamarine;
+}
+
+.self .chef {
+    /* border: 1px solid black; */
+    font-size: 5vh;
+}
+
+.self .me {
+    /* border: 1px solid black; */
+    font-size: 10vh;
+}
+
+/* .test2{
+    display: flex;
+    border: 1px solid #000;
+    flex: auto;
+    align-items: first baseline;
+    justify-content: flex-end;
+    gap: 1rem;
+} */
+
+/* .test2 > div {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 5px;
+} */
